@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeClan News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>CodeClan News</h1>
+        <nav>
+            <ul>
+                <li><a href="/link">Home</a></li>
+                <li><a href="/link/here">Blog</a></li>
+                <li><a href="/link/here/again">Connect</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <aside> 
+        <h2>Login</h2>
+        <ul>
+            <li><input type="text" placeholder="Username"></input></li>
+            <li><input type="text" placeholder="Password"></input></li>
+            <li><button>Submit</button><li></li>
+        </ul>
+    </aside>
+
+    <nav>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="">Latest</a></li>
+            <li><a href="">Local</a></li>
+            <li><a href="">Politics</a></li>
+            <li><a href="">Sports</a></li>
+        </ul>
+    </nav>
+
+    <section>
+    <!--holds article previews --->
+        <h2>Latest</h2>
+        <h3>Breaking News</h3>
+        <article>
+            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C809/production/_127890215_gettyimages-904654804-1.jpg.webp" alt="An image of an icy lake">
+            <h4>Met Office warns of below freezing temperatures</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsum, nobis culpa officia cum corporis id deleniti quod natus nulla rem!</p>
+        </article>
+
+        <article>
+            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12B55/production/_127892667_mediaitem127892666.jpg.webp" alt="Image of Colfe's school entrance, in England">
+            <h4>Child aged 12 dies of invasive strep A in London</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, et.Doloremque hic reiciendis, incidunt soluta, esse quibusdam!</p>
+        </article>
+
+        <article>
+            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/0C7E/production/_127889130_gettyimages-1444789589.jpg.webp">
+            <h4>SRaheem Sterling: No threat of violence in England star's break-in - police</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est soluta expedita molestiae libero eaque ut molestias.</p>
+        </article>
+    </section>
+
+    <article id="main_article"> 
+    <!-- holds main article and wraps entire comments section -->
+        <h2>Main Article Headline</h2>
+        <h4>Author Name</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit molestiae odit cum quasi illo ipsum voluptas.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam numquam velit. Explicabo, aperiam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident nostrum quae possimus aperiam rem esse similique itaque eum, nisi facilis! Molestias adipisci odio, autem numquam quisquam earum magni voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam quo modi maiores exercitationem enim dicta voluptatem quasi quaerat? Voluptatibus nam laudantium dolor provident et repudiandae quisquam accusamus, ducimus ad.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum unde esse illum ex nisi corporis consequatur! Nulla sequi necessitatibus amet est deserunt corrupti minus ea magnam distinctio enim quod inventore tempora nostrum ex, adipisci quia laudantium numquam voluptas! Quas sit reprehenderit veniam, quisquam numquam soluta molestiae, delectus tempora facere atque aspernatur, quis quaerat maiores consectetur dolor accusamus doloribus praesentium. Dolores, atque blanditiis distinctio quasi praesentium corrupti reprehenderit accusamus suscipit repellendus, natus reiciendis harum repudiandae possimus earum neque incidunt voluptates iste, obcaecati dicta? Iste tenetur voluptatem fuga dolor architecto ipsa.</p>
+
+        <!-- user input comments box -->
+        <aside>
+            <h3>Comments</h3>
+            <textarea id="comments_box" rows="5" placeholder="Have your say..."></textarea>
+            <button id="submit_button">submit</button>
+        </aside>
+
+        <!-- previous users displayed comments -->
+        <section class="comments_section">
+            <ul>
+                <li>
+                    <hr>
+                    <img src="https://st.depositphotos.com/1269204/1219/i/600/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg" alt="Profile image of Graham looking cheery">
+                    <h4>User: Grah44m</h4>
+                    <h5>Posted: 05/12/22</h5>
+                    <p>This was interesting, thanks!</p>
+                </li>
+                <li>
+                    <hr>
+                    <img src="https://media.istockphoto.com/id/1350926687/photo/happy-business-woman-using-digital-tablet-at-home.jpg?b=1&s=170667a&w=0&k=20&c=kfOJZExzHr5_-OK3AIKHWgoD_QLKnP_kVWDQwl6ZbEY=" alt="Image of sandra on a tablet, from Shutterstock">
+                    <h4>User: Tabby4life</h4>
+                    <h5>Posted: 05/12/22</h5>
+                    <p>This looks great on my tablet!</p>
+                </li>
+                <li>
+                    <hr>
+                    <img src="https://blueprintdigital.com/wp-content/uploads/2014/11/stock-photo-happy-man-giving-okay-sign-portrait-on-white-background-141327337.jpg" alt=""Profile of Dave from shutterstock>
+                    <h4>User: AllWillBeOK</h4>
+                    <h5>Posted: 05/12/22</h5>
+                    <p>Nah, I hate it!</p>
+                </li>
+            </ul>
+        </section>
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+/* 
+Colour Schema
+background: seagreen;
+text colour: aliceblue; 
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* remove default stylings */
+    margin: 2.5%;
+    margin-top: 5%;
+}
+
+body > footer  {
+    background-color: seagreen;
+}
+
+body > footer > p {
+    padding: 16px;
+    color: aliceblue;
+    text-align: center;
+}
+
+body > header{
+    background-color: seagreen;
+    color: aliceblue;
+}
+#logo{
+    background-color: darkcyan;
+    text-align: center;
+    font-family: "roboto";
+
+    padding: 2px;
+    margin: 0px;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li > a {
+    color: aliceblue;
+}
+
+.like-button {
+    background-color: seagreen;
+    border: 3px solid rgb(0, 120, 120);
+    border-radius: 5%;
+    color: aliceblue;
+
+}
+.share-button {
+    background-color: seagreen;
+    border: 3px solid rgb(0, 120, 120);
+    border-radius: 5%;
+    color: aliceblue;
+
+}
